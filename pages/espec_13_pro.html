@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPhone 13 Pro</title>
+  <link rel="stylesheet" href="../src/especs.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  
+</head>
+<body>
+  
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="../index.html#inicio" class="logo" aria-label="Inicio - iPhone Store">iPhoneStore</a>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="../index.html#modelos">Modelos</a></li>
+        <li><a href="../index.html#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO / Presentación del modelo -->
+  <!-- HERO / Presentación del modelo -->
+<section class="model-detail-section" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 6vh 4vw;">
+  <div class="model-3d" style="flex: 1 1 400px; text-align: center;">
+    <model-viewer
+      src="../models/apple_iphone_13_pro.glb" 
+      alt="iPhone 16 - modelo 3D"
+      auto-rotate
+      camera-controls
+      disable-zoom
+      ar
+      shadow-intensity="1"
+      autoplay
+      interaction-prompt="none"
+      style="width: 100%; height: 500px; background: transparent;"
+    ></model-viewer>
+  </div>
+
+  <div class="model-specs" style="flex: 1 1 400px; padding: 2rem;">
+    <h2>iPhone 13 Pro</h2>
+    <ul class="specs-list">
+      <li><strong>Pantalla:</strong> 6.1" LTPO OLED Super Retina XDR PRO MOTION (120Hz)</li>
+      <li><strong>Chip:</strong> A15 Bionic</li>
+      <li><strong>Cámara:</strong> Principal 12MP + Ultrawide 12MP + Teleobjetivo 12MP</li>
+      <li><strong>Batería:</strong> 3095 mAh</li>
+      <li><strong>Almacenamiento:</strong>128 / 256GB / 512GB / 1TB</li>
+      <li><strong>Colores:</strong> Grafite, Silver, Golden, Sierra Blue</li>
+      <li><strong>Conectividad:</strong> 5G, Wi-Fi 6</li>
+    </ul>
+    <a href="https://wa.me/..." class="modern-gradient-button">Consultar por WhatsApp</a>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer id="contacto">
+    <p>&copy; 2025 iPhone Store. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
